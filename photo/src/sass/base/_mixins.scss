@@ -1,0 +1,48 @@
+@mixin text_color {
+    color: #C0C0C0;
+}
+
+
+@mixin before_photo-camera {
+    &:before {
+        top: px;
+        content: url('../icons/photo_info_camera.png');
+        padding-right: 6px;
+    }
+}
+
+@mixin before_photo-time {
+    &:before {
+        content: url('../icons/photo_info_time.png');
+        padding-right: 6px;
+        
+    }
+}
+
+@mixin before_photo-iso {
+    &:before {
+        content: url('../icons/photo_info_iso.png');
+        padding-right: 6px;
+    }
+}
+
+@mixin before_photo-map {
+    &:before {
+        content: url('../icons/photo_info_map.png');
+        padding-right: 6px;
+    }
+}
+
+@mixin before_work_btn {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        /* left: calc(50% - 32px/2 - 51.5px); */
+        top: 5px;
+        background-color: black;
+        border-radius: 38%;
+        left: 2px;
+    }
+}

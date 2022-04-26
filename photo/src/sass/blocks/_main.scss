@@ -1,0 +1,72 @@
+.main {
+    position: relative;
+    min-height: 800px;
+    background: url('../img/bg/main_bg.jpg') center (center/cover) no-repeat;
+    &__wrapper {
+        position: absolute;
+        height: 209px;
+        left: 29.17%;
+        right: 29.17%;
+        top: 531px;
+    }
+    &__header {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        @include text_color;
+    }
+    &__subheader {
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 59px;
+        /* identical to box height, or 110% */
+        text-align: center;
+        @include text_color;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+        text-align: center;
+        @include text_color;
+    }
+    .text__time {
+        position: relative;
+        @include before_photo-time;
+        @include text_color;
+    }
+    .photo_info {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end; 
+        font-size: 12px;
+        padding-left: 1040px;
+    }
+    .text__camera {
+        position: relative;
+        padding-left: 30px;
+        @include before_photo-camera;
+        @include text_color;
+        font-size: 12px;
+    }
+    .text__iso {
+        position: relative;
+        padding-left: 30px;
+        @include before_photo-iso;
+        @include text_color;
+        font-size: 12px;
+    }
+    .text__map {
+        position: relative;
+        padding-left: 30px;
+        @include before_photo-map;
+        @include text_color;
+        font-size: 12px;
+    }
+}
+
+

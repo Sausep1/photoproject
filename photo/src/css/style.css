@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/* line 3, ../../проекты/photo/src/sass/style.scss */
+* {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../../проекты/photo/src/sass/blocks/_btn.scss */
+.btn {
+  height: 42px;
+  width: 150px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* line 1, ../../проекты/photo/src/sass/blocks/_menu.scss */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background: #181818;
+  height: 90px;
+}
+
+/* line 6, ../../проекты/photo/src/sass/blocks/_menu.scss */
+.menu__logo {
+  padding: 30px 0 29px 152px;
+}
+
+/* line 9, ../../проекты/photo/src/sass/blocks/_menu.scss */
+.menu__list {
+  padding-left: 500px;
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  list-style-type: none;
+}
+
+/* line 17, ../../проекты/photo/src/sass/blocks/_menu.scss */
+.menu__list li {
+  padding-left: 32px;
+  display: inline-block;
+}
+
+/* line 21, ../../проекты/photo/src/sass/blocks/_menu.scss */
+.menu__list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 26, ../../проекты/photo/src/sass/blocks/_menu.scss */
+.menu .btn {
+  margin: 24px 140px 140px -155px;
+}
+
+/* line 1, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main {
+  position: relative;
+  min-height: 800px;
+  background: url("../img/bg/main_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 5, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main__wrapper {
+  position: absolute;
+  height: 209px;
+  left: 29.17%;
+  right: 29.17%;
+  top: 531px;
+}
+
+/* line 12, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main__header {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+/* line 21, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main__subheader {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  /* identical to box height, or 110% */
+  text-align: center;
+  color: #C0C0C0;
+}
+
+/* line 29, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main__descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+  color: #C0C0C0;
+}
+
+/* line 37, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main .text__time {
+  position: relative;
+  color: #C0C0C0;
+}
+
+/* line 15, ../../проекты/photo/src/sass/base/_mixins.scss */
+.main .text__time:before {
+  content: url("../icons/photo_info_time.png");
+  padding-right: 6px;
+}
+
+/* line 42, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main .photo_info {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  padding-left: 1040px;
+}
+
+/* line 49, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main .text__camera {
+  position: relative;
+  padding-left: 30px;
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+/* line 7, ../../проекты/photo/src/sass/base/_mixins.scss */
+.main .text__camera:before {
+  top: px;
+  content: url("../icons/photo_info_camera.png");
+  padding-right: 6px;
+}
+
+/* line 56, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main .text__iso {
+  position: relative;
+  padding-left: 30px;
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+/* line 23, ../../проекты/photo/src/sass/base/_mixins.scss */
+.main .text__iso:before {
+  content: url("../icons/photo_info_iso.png");
+  padding-right: 6px;
+}
+
+/* line 63, ../../проекты/photo/src/sass/blocks/_main.scss */
+.main .text__map {
+  position: relative;
+  padding-left: 30px;
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+/* line 30, ../../проекты/photo/src/sass/base/_mixins.scss */
+.main .text__map:before {
+  content: url("../icons/photo_info_map.png");
+  padding-right: 6px;
+}
+
+/* line 1, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work {
+  background: #000000;
+  padding: 242px 242px 136px 136px;
+}
+
+/* line 5, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work__header {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  text-align: center;
+  color: #C0C0C0;
+}
+
+/* line 13, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work__subheader {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  /* identical to box height, or 130% */
+  text-align: center;
+  color: #C0C0C0;
+}
+
+/* line 21, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work__container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 577px 600px;
+  gap: 16px;
+  padding-left: 150px;
+}
+
+/* line 29, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work .wrapper__work-items {
+  position: relative;
+}
+
+/* line 32, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work button {
+  position: absolute;
+  height: 42px;
+  left: 0%;
+  right: 72.29%;
+  top: 544px;
+  left: 16px;
+}
+
+/* line 37, ../../проекты/photo/src/sass/base/_mixins.scss */
+.work button:before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  /* left: calc(50% - 32px/2 - 51.5px); */
+  top: 5px;
+  background-color: black;
+  border-radius: 38%;
+  left: 2px;
+}
+
+/* line 40, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work button a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 45, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work .work__item-text {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: aliceblue;
+  bottom: 90px;
+  width: 500px;
+}
+
+/* line 54, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work .work__item-texthead {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+/* line 63, ../../проекты/photo/src/sass/blocks/_work.scss */
+.work .work__item-textsub {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #C0C0C0;
+}
+
+/* line 1, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset {
+  position: relative;
+  min-height: 600px;
+  background: url("../img/bg/what_we_do_footer_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 6, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset .container .sunset__descr {
+  position: absolute;
+  width: 298px;
+  margin-top: 280px;
+  margin-left: 1080px;
+  text-align: left;
+  color: aliceblue;
+}
+
+/* line 14, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset .container .sunset-head {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* line 23, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset .container .sunset-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  color: #C0C0C0;
+}
+
+/* line 33, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset .photo_info {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  padding-left: 1040px;
+  transform: translateY(550px);
+  padding-right: 60px;
+}
+
+/* line 42, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset .text__time {
+  position: relative;
+  color: #C0C0C0;
+}
+
+/* line 15, ../../проекты/photo/src/sass/base/_mixins.scss */
+.sunset .text__time:before {
+  content: url("../icons/photo_info_time.png");
+  padding-right: 6px;
+}
+
+/* line 47, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset .text__camera {
+  position: relative;
+  padding-left: 30px;
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+/* line 7, ../../проекты/photo/src/sass/base/_mixins.scss */
+.sunset .text__camera:before {
+  top: px;
+  content: url("../icons/photo_info_camera.png");
+  padding-right: 6px;
+}
+
+/* line 54, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset .text__iso {
+  position: relative;
+  padding-left: 30px;
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+/* line 23, ../../проекты/photo/src/sass/base/_mixins.scss */
+.sunset .text__iso:before {
+  content: url("../icons/photo_info_iso.png");
+  padding-right: 6px;
+}
+
+/* line 61, ../../проекты/photo/src/sass/blocks/_sunset.scss */
+.sunset .text__map {
+  position: relative;
+  padding-left: 30px;
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+/* line 30, ../../проекты/photo/src/sass/base/_mixins.scss */
+.sunset .text__map:before {
+  content: url("../icons/photo_info_map.png");
+  padding-right: 6px;
+}
+
+/* line 1, ../../проекты/photo/src/sass/blocks/_tools.scss */
+.container__tools {
+  min-height: 540px;
+  background-color: black;
+}
+
+/* line 4, ../../проекты/photo/src/sass/blocks/_tools.scss */
+.container__tools .tools__photo {
+  float: right;
+  width: 720px;
+  height: 540px;
+}
+
+/* line 10, ../../проекты/photo/src/sass/blocks/_tools.scss */
+.container__tools .tools__text {
+  display: block;
+  width: 300px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
